@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {background-image: url('./sky.jpeg'); background-size: cover;}
+        .box { background-color:black; color: white; border:5px solid red; border-radius: 20px; text-align: center;}
+        .div { display: block; }
+        h2 { text-align: center;}
+
+
+        .division1 { display: flex; margin-top: 50px;  }
+        .lbox { width:400px; height:100px; font-family: informal roman;  }
+        .mbox { width:600px; height:60px; margin-left: -130px; margin-right: 60px;  font-family: informal roman;}
+        .rbox { width:500px; height:100px; font-family: informal roman; }
+
+        .division2 { display: flex; margin-top: 150px; }
+        .container { width:500px; height: 500px; border:5px solid grey; background-color: rgb(6, 139, 132); border-radius:60%; }
+        .circletext { margin-top: 200px; margin-left:-35px; text-align: center; height:1000px; width: 530px;  font-family: informal roman;  }
+        .form-box { width:400px; height:700px; border:5px dashed red; margin-left: 150px; background-color: white; }
+        .mainform { text-align: center; color: red;}
+
+        .division3 { width:400px; margin-left:500px; margin-top: 90px; font-family: informal roman;  }
+
+        .division4 { display: flex;}
+        .part1 { width: 450px; height: 350px; background-color: cyan; border:3px solid rgb(6, 139, 132); border-radius: 20px; margin-top: 50px; margin-bottom: 30px; line-height: 25px; text-align: center; color: blueviolet; }
+        .part2 { width: 450px; height:350px; background-color: cyan;  border:3px solid rgb(6, 139, 132); border-radius: 20px;  margin-top: 50px; margin-bottom: 30px; line-height: 25px; text-align: center; color: blueviolet; margin-left: 50px; } 
+        .part3 {width: 450px; height:350px; background-color: cyan;  border:3px solid rgb(6, 139, 132); border-radius: 20px;  margin-top: 50px; margin-bottom: 30px; line-height: 25px; text-align: center; color: blueviolet; margin-left: 60px; }
+    
+        .part4 {width: 450px; height:350px; background-color: cyan; border:3px solid rgb(6, 139, 132); border-radius: 20px;  margin-top: 80px; margin-bottom: 10px; line-height: 25px; text-align: center; color: blueviolet;}
+        .part5 {  width: 450px; height:350px; background-color: cyan;  border:3px solid rgb(6, 139, 132); border-radius: 20px;  margin-top: 80px; margin-bottom: 10px; line-height: 25px; text-align: center; color: blueviolet; margin-left: 50px;}
+        .part6 {  width: 450px; height:450px; background-color: cyan;  border:3px solid rgb(6, 139, 132); border-radius: 20px;  margin-top: 80px; line-height: 25px; text-align: center; color: blueviolet; margin-left: 60px; }
+    </style>
+</head>
+
+<body>
+
+<!--this is the first divison of the body where there are 3 boxes set inside the div tag-->
+<div class="division1">
+<div class=" box lbox">
+    <h3 style="text-align: center; ">"Welcome to Dhaba of Mumbai" <br> "where you get the quality food."</h3>
+</div>
+<div class=" box mbox">
+    <h3 style="text-align: center;">"Home Menu review contact us"</h3>
+</div>
+<div class=" box rbox">
+    <h3 style="text-align: center;">"Email: namratatamse18@gmail.com"<br>
+    "If any complaint is found"<br>
+    "contact us at 94835878759898"</h3>
+</div>
+</div>   
+
+
+<!--this is the second division of the body where the circle and registration page is there-->
+<div class="division2">
+<div class="container" >
+    <!--making the content inside the circle to be set inside the div tag-->
+    <div class="circletext">
+    <ul type="none">
+    <li><a href="https://www.befrugal.com/store/homedepot/" style="color:black"><strong>EXICTING OFFERS</strong></a></li>
+    <hr>
+    <li><a href="https://d2np4vr8r37sds.cloudfront.net/img/article/938-ebefprtfpq-1487695136.jpg" style="color:black"><strong>**GET OUR SPECIAL THALI FOR ONLY RS-100 ONLY ON MONDAY**</strong></a></li>
+    <hr>
+    <li><a href="https://blog.hubspot.com/service/customer-review-sites" style="color:black"><strong>RATE US OUT OF 5</strong></a></li>
+    </ul>
+    </div>
+</div>
+<div class="form-box">
+    <!---this is for the registration page which is at the right -->
+    <div class="mainform">
+    <form>
+    <h3>PLEASE REGISTER HERE</h3>
+    <hr>
+    <br>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fanme" name="fname" placeholder="Enter your first name">
+    <br>
+    <br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+    <br>
+    <br>
+    <label for="age"> Enter your Age:</label><br>
+    <input type="number" id="age" name="age" min="1" max="100" value="0" placeholder="your age">
+    <br>
+    <br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <br>
+    <br>
+    <label for="Date"> Date of birth: </label><br>
+    <input type="date" id="Date" name="date" value="date">
+    <br>
+    <br>
+    <label>"Are you more then one person?"</label><br>
+    <input type="checkbox" name="checkbox">
+    <br>
+    <br>
+    <label>"Do you have cough or cold?"</label><br>
+    <input type="checkbox" name="checkbox" required>
+    <br>
+    <br>
+    <label for="submit">"click here"</label><br>
+    <input type="submit" name="Submit here"  id="submit">
+    <br>
+    <br>
+    <label>'Reset'</label><br>
+    <input type="reset" name="reset">
+    <br>
+    </form>
+    </div>
+</div>
+</div>
+
+
+<!--this is  the 3rd division  of the page that is menu-->
+<div class="box division3">
+    <h1>MENU</h1>
+</div>
+<br>
+<hr>
+<br>
+
+
+
+
+<!--this is the forth division of the webpage-->
+<div class="division4">
+
+    <table>
+
+    <tr>
+
+    <td>
+    <div class="part1" >
+    <h2 style="color:rgb(36, 36, 152)" >Starters</h2>
+    <hr>
+    <ul >
+    <li>Panner Tikka</li>
+    <li>Tomato soup</li>
+    <li>Afgani chaap</li>
+    <li>Veg Raita</li>
+    <li>Gol Gappa</li>
+    <li>Tikka</li>
+    <li>Fried Rice</li>
+    </ul>
+    </div>
+    </td>
+
+    <td>
+    <div class="part2">
+    <h2 style="color:rgb(36, 36, 152)" >South Indian</h2>
+    <hr>
+    <ul >
+    <li>Masala Dosa</li>
+    <li>Idli Sambar</li>
+    <li>Mix Veg Uttapam</li>
+    <li>Onion Dosa</li>
+    <li>Vada Sambhar</li>
+    <li>Paper plain Dosa</li>
+    <li>Tomato Uttapam</li>
+    </ul>
+    </div>
+    </td>
+
+    <td>
+    <div class="part3">
+    <h2 style="color:rgb(36, 36, 152)" >Indian Kitchen</h2>
+    <hr>
+    <ul >
+    <li>Shahi paneer</li>
+    <li>Kadhai Paneer</li>
+    <li>Aloo Ghobi</li>
+    <li>Dal Makhni</li>
+    <li>Poori Sabji</li>
+    <li>Malai kofta</li>
+    <li>Stuff Capsicum</li>
+    </ul>
+    </div>
+    </td>
+
+    </tr>
+    
+    <tr>
+     
+    <td>
+    <div class="part4">
+    <h2 style="color:rgb(36, 36, 152)" >Rice and Salad</h2>
+    <hr>
+    <ul>
+    <li>Plain Rice</li>
+    <li>Jeera Rice</li>
+    <li>Fried Rice</li>
+    <li>Veg pulav</li>
+    <li>Veg biryani</li>
+    <li>Cheese fried Rice</li>
+    <li>Masala salad</li>
+    </ul>
+    </div>
+    </td>
+
+    <td>
+    <div class="part5">
+    <h2 style="color:rgb(36, 36, 152)" >Thandoori Bread</h2>
+    <hr>
+    <ul>
+    <li>Butter Roti</li>
+    <li>Missi Roti</li>
+    <li>Onion Parata</li>
+    <li>Lacha Prantha</li>
+    <li>Butter Naan</li>
+    <li>Paneer paratha</li>
+    <li>Stuff paratha</li>
+    </ul>
+    </div>
+    </td>
+
+    <td>
+    <div class="part6">
+    <h2 style="color:rgb(36, 36, 152)" >Beverages and Other</h2>
+    <hr>
+    <ul>
+    <li>Cold coffee</li>
+    <li>Cold drinks</li>
+    <li>Bdam Milk</li>
+    <li>Mineral water</li>
+    <li>Ice cream</li>
+    <li>Cake</li>
+    <li>Gajar Halwa</li>
+    </ul>
+    </div> 
+    </td>
+
+</div>
+
+</body>
+</html>
